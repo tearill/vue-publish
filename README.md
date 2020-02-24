@@ -12,3 +12,18 @@
    把 dist 代码留下移出来到根目录，其他的删除  
 5. 提交到 gh-pages 分支(git push origin gh-pages)  
    源码在 master 分支，上线的代码在 dist/ 目录下  
+
+## learn-vue-components  
+
+学习 Vue 组件设计  
+
+1. Vue 组件学习，使用 iview, element-ui...Vue开发框架，快速上手组件式开发  
+2. 分析特定业务场景，对专业组件进行分析  
+3. 组件发布 npm，学习一些组件  
+
+- 电商网站搜索组件设计  
+  1. searchbar --- input + button  
+  2. tags 功能 --- 活动，广告等上线  
+  
+<search />  
+1. 安装 iview，使用其中的 i-input tag  
