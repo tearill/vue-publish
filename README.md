@@ -11,9 +11,9 @@
    gh-pages 分支上把 dist 目录下的代码搞过去  
    把 dist 代码留下移出来到根目录，其他的删除  
 5. 提交到 gh-pages 分支(git push origin gh-pages)  
-   源码在 master 分支，上线的代码在 dist/ 目录下  
+   源码在 master 分支，上线的代码在 gh-pages 分支下  
 
-## learn-vue-components  
+# learn-vue-components  
 
 学习 Vue 组件设计  
 
@@ -26,4 +26,10 @@
   2. tags 功能 --- 活动，广告等上线  
   
 <search />  
-1. 安装 iview，使用其中的 i-input tag  
+
+## 表单  
+1. iview 的 Form 通过组件和配置的理念，比原生 html, css, js 写法更好用  
+   html 标签是贫瘠的
+2. Form FormItem i-input Button 组件形成表单的 UI  
+3. :model :rules="" 表单的验证是配置出来的  
+(Vue 中不用 id，用 ref)
