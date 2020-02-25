@@ -1,11 +1,11 @@
 <template>
   <div id="app" class="container">
-    <Search />
-    <hr>
+    <!-- <Search /> -->
+    <!-- <hr> -->
     <!-- 表单 -->
-    <div class="info-fo">
+    <!-- <div class="info-fo"> -->
       <!-- iview 提供的 Form 组件 -->
-      <Form ref="formValidate" :model="formValidate" :rules="ruleValidate">
+      <!-- <Form ref="formValidate" :model="formValidate" :rules="ruleValidate">
         <FormItem label="手机号" prop="phone">
           <i-input placeholder="请输入手机号" size="large" v-model="formValidate.phone"></i-input>
         </FormItem>
@@ -16,13 +16,13 @@
         </FormItem>
       </Form>
       <Button type="error" size="large" long @click="handleSubmit('formValidate')">验证手机号</Button>
-    </div>
+    </div> -->
     <router-view/>
   </div>
 </template>
 
 <script>
-import Search from './components/Search'
+// import Search from './components/Search'
 export default {
   data() {
     return {
@@ -44,7 +44,7 @@ export default {
     }
   },
   components: {
-    Search
+    // Search
   },
   methods: {
     handleSubmit() {
