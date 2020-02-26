@@ -3,10 +3,10 @@ const getGoodsInfo = () => {
         setTimeout(() => { // 伪造通信时间
             const data = {
                 goodsImg: [
-                    'static/img/goodsDetail/item-detail-1.jpg',
-                    'static/img/goodsDetail/item-detail-2.jpg',
-                    'static/img/goodsDetail/item-detail-3.jpg',
-                    'static/img/goodsDetail/item-detail-4.jpg'
+                    'http://img30.360buyimg.com/popWaterMark/jfs/t1/90767/4/3188/135324/5ddceee5E8d79e323/1a096ed507f5a03c.jpg',
+                    'https://img10.360buyimg.com/imgzone/jfs/t1/100829/19/12604/143004/5e4cb2ccE32901e31/7165a335d8aa542d.jpg',
+                    'http://img30.360buyimg.com/popWaterMark/jfs/t1/94614/39/3226/86464/5ddceee5Ec852f4e4/4e7181ef5a077348.jpg',
+                    'http://img30.360buyimg.com/popWaterMark/jfs/t1/94614/39/3226/86464/5ddceee5Ec852f4e4/4e7181ef5a077348.jpg'
                 ],
                 title: '苹果8/7手机壳iPhone7 Plus保护壳全包防摔磨砂硬外壳',
                 tags: ['满69-20元', '关注产品★送钢化膜', 'BIT配次日达'],
