@@ -17,6 +17,7 @@
       </Form>
       <Button type="error" size="large" long @click="handleSubmit('formValidate')">验证手机号</Button>
     </div> -->
+    <x-button type="primary">button</x-button>
     <router-view/>
   </div>
 </template>
